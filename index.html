@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">  <!-- 网站图标 -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- 网站图标 -->
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -15,11 +15,13 @@
     <div class="container my-5">
         <h1 class="text-center">入库工具发布更新页</h1>
         <p class="text-muted text-center">每次发布更新，这里都会同步发布</p>
+
+        <!-- 卡片：最新版本信息 -->
         <div class="card mb-4" id="about">
             <div class="card-body text-center">
-                <h5 class="card-title">当前最新版本v5.3.6</h5>
-                <p class="card-text">"欢迎使用EEUN,有问题请联系eeun-server2@qq.com"</p>
-                <!-- 按钮居中 -->
+                <h5 class="card-title">当前最新版本 v5.3.6</h5>
+                <p class="card-text">欢迎使用EEUN，有问题请联系 <a href="mailto:eeun-server2@qq.com">eeun-server2@qq.com</a></p>
+                <!-- 下载按钮 -->
                 <div class="d-flex justify-content-center">
                     <a href="https://pan.xiaoqiu.in/s/4WBfQ" target="_blank" class="btn btn-primary mx-2">备用网盘下载</a>
                     <a href="https://wwzh.lanzoup.com/b00ef7tf5c" target="_blank" class="btn btn-primary mx-2">备用网盘下载2（密码:EEUN）</a>
@@ -27,29 +29,30 @@
                 </div>
             </div>
         </div>
-        <!-- 展示卡片 -->
+
+        <!-- 卡片列表 -->
         <div class="card-deck" id="projects">
+            <!-- 普通版本 -->
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">普通版本</h5>
-                    <p class="card-text">"后缀UP"</p>
-                    <!-- 下载 -->
+                    <p class="card-text">后缀 UP</p>
                     <a href="files/EEUNv5.3.6_UP.rar" download class="btn btn-outline-primary">下载文件</a>
                 </div>
             </div>
+            <!-- 网吧版本 -->
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">网吧版本</h5>
-                    <p class="card-text">"后缀WB"</p>
-                    <!-- 下载 -->
+                    <p class="card-text">后缀 WB</p>
                     <a href="files/EEUNv5.3.6_WB.rar" download class="btn btn-outline-primary">下载文件</a>
                 </div>
             </div>
+            <!-- 购买链接 -->
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">点击下方购买</h5>
-                    <p class="card-text">"购买链接"</p>
-                    <!-- 跳转 -->
+                    <h5 class="card-title">购买工具</h5>
+                    <p class="card-text">点击下方购买</p>
                     <a href="https://www.shiyuei.cn/links/896ADE59" target="_blank" class="btn btn-outline-primary">查看详情</a>
                 </div>
             </div>
